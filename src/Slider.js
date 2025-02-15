@@ -76,7 +76,7 @@ const ImageSlider = () => {
       title: "A Square",
       description: "A square project on GitHub Pages",
       image: a2,
-      link: "https://akshupdf.github.io/asquare/",
+      link: "https://asquarehydro.netlify.app/",
       thumbnail: "/api/placeholder/100/100"
     },
     {
