@@ -35,10 +35,10 @@ export default function Navbar() {
         </ul>
 
         <ul className='w-[50%] justify-end pt-8 text-2xl flex '>
-        <li className='w-[20%] bg-white cursor-pointer rounded-2xl p-2 text-center h-14 mr-4'><Link to="home" smooth={true} offset={50} duration={500}>Home</Link></li>
-            <li className='w-[20%] bg-white cursor-pointer rounded-2xl p-2 text-center h-14 mr-4'><Link to="about" smooth={true} offset={50} duration={500}>About Me </Link> </li>
-            <li className='w-[20%] bg-white cursor-pointer rounded-2xl p-2 text-center h-14 mr-4'><Link to="project" smooth={true} offset={50} duration={500}>Projects </Link> </li>
-            <li className='w-[20%] bg-white cursor-pointer rounded-2xl p-2 text-center h-14 mr-4'><Link to="contact" smooth={true} offset={50} duration={500}>Reach Out</Link></li>
+        <li className=' bg-white cursor-pointer rounded-2xl p-2 text-center h-14 mr-4'><Link to="home" smooth={true} offset={50} duration={500}>Home</Link></li>
+            <li className=' bg-white cursor-pointer rounded-2xl p-2 text-center h-14 mr-4'><Link to="about" smooth={true} offset={50} duration={500}>About Me </Link> </li>
+            <li className=' bg-white cursor-pointer rounded-2xl p-2 text-center h-14 mr-4'><Link to="project" smooth={true} offset={50} duration={500}>Projects </Link> </li>
+            <li className=' bg-white cursor-pointer rounded-2xl p-2 text-center h-14 mr-4'><Link to="footer" smooth={true} offset={50} duration={500}>Reach Out</Link></li>
         </ul>
     </div>
 </div>

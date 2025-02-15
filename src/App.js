@@ -3,6 +3,7 @@ import Home from "./Home";
 import "./App.css"
 import Navbar from "./Nav";
 import ImageSlider from "./Slider";
+import Footer from "./Footer";
 
 
 function App() {
@@ -11,8 +12,10 @@ function App() {
     <Navbar />
   <Home />
   <About />
+
   {/* <Project /> */}
   <ImageSlider />
+  <Footer/>
    </div>
 
 

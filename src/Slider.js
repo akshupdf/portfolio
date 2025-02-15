@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
 import a1 from './images/acord.jpg'
-import a2 from './images/asquare.jpg'
+import a2 from './images/ash.png'
 import a3 from './images/a5.jpg'
 import loc from './images/locum.jpg'
-import chat from './images/gif.jpg'
-import chat1 from './images/akshupdfweb.jpg'
-import lanka from './images/lanka.jpg'
+import chat from './images/dp.png'
+import chat1 from './images/pdf.png'
+import lanka from './images/vera.png'
 import welcome from './images/welcome.jpg'
 import cart from './images/cart.jpg'
 import chat2 from './images/chat3.jpg'
@@ -25,10 +25,10 @@ const ImageSlider = () => {
    
     {
       id: 2,
-      title: "Lanka Project",
-      description: "A web project for Travels",
+      title: "Vera Project",
+      description: "A web project for aloe products.",
       image: lanka,
-      link: "https://lanka-r498.onrender.com/",
+      link: "https://vera-demo.netlify.app/",
       thumbnail: "/api/placeholder/100/100"
     },
     {
@@ -57,20 +57,20 @@ const ImageSlider = () => {
     },
     {
       id: 6,
-      title: "Temp Project",
+      title: "DP partners",
       description: "A temporary web project",
       image: chat,
-      link: "https://tempn.netlify.app/",
+      link: "https://dppartner-demo.netlify.app/",
       thumbnail: "/api/placeholder/100/100"
     },
-    {
-      id: 7,
-      title: "Welcome App",
-      description: "A welcoming app project",
-      image: welcome,
-      link: "https://welcomeappp.netlify.app/",
-      thumbnail: "/api/placeholder/100/100"
-    },
+    // {
+    //   id: 7,
+    //   title: "Welcome App",
+    //   description: "A welcoming app project",
+    //   image: welcome,
+    //   link: "https://welcomeappp.netlify.app/",
+    //   thumbnail: "/api/placeholder/100/100"
+    // },
     {
       id: 8,
       title: "A Square",
@@ -124,7 +124,7 @@ const ImageSlider = () => {
   }
 
   return (
-    <div className="relative w-full max-w-7xl mx-auto">
+    <div className="relative w-full max-w-7xl mx-auto mt-[10vh]">
       {/* Main Slide */}
       <div className="relative h-[600px] overflow-hidden rounded-lg">
         {slides.map((slide, index) => (
@@ -182,7 +182,7 @@ const ImageSlider = () => {
         </div>
 
       {/* Thumbnails */}
-      <div className="absolute lg:bottom-4 sm:bottom-[12vh] lg:right-10 sm:left-20 transform -translate-x-1/2 flex gap-2">
+      <div className="absolute lg:bottom-4 sm:bottom-[12vh] mx-auto  transform -translate-x-1/2 flex gap-2 right-[-40vh]">
         {slides.map((slide, index) => (
           <button
             key={slide.id}
@@ -208,7 +208,7 @@ const ImageSlider = () => {
       {/* Controls */}
       <button
         onClick={() => setIsAutoPlaying(!isAutoPlaying)}
-        className="absolute bottom-4 right-4 p-2 bg-black/50 rounded-full text-white hover:bg-black/70 transition-colors"
+        className="absolute bottom-4 sm:right-4 p-2 bg-black/50 rounded-full text-white hover:bg-black/70 transition-colors"
       >
         {isAutoPlaying ? (
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
